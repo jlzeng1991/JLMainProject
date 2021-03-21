@@ -1,0 +1,6 @@
+framework module JLMainProject {
+  umbrella header "JLMainProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

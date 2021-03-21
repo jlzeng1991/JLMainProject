@@ -22,6 +22,10 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7D24FB2E2600454300768F48 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 7D24FB2A2600454300768F48 /* .gitkeep */; };
+		7D24FB2F2600454300768F48 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D24FB2C2600454300768F48 /* ReplaceMe.m */; };
+		7D24FB302600454300768F48 /* JLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D24FB2D2600454300768F48 /* JLTools.m */; };
+		7D24FB342600455900768F48 /* local.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D24FB332600455900768F48 /* local.strings */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F65C91546D837E6F93B6EDA8 /* Pods_JLMainProject_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D1F45F74E3E93394A877FA /* Pods_JLMainProject_Example.framework */; };
 /* End PBXBuildFile section */
@@ -37,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A5B6782B8C864675FB6575A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A5B6782B8C864675FB6575A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0BAF487047BC8BF9506B174A /* Pods_JLMainProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLMainProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DF573ADA9E30D6576D8C11A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2DF573ADA9E30D6576D8C11A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		48BA89971700F5BF6B541EC9 /* Pods-JLMainProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLMainProject_Example.debug.xcconfig"; path = "Target Support Files/Pods-JLMainProject_Example/Pods-JLMainProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		48D1F45F74E3E93394A877FA /* Pods_JLMainProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLMainProject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F26F6DDEC9E540F862BBA3A /* Pods-JLMainProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLMainProject_Example.release.xcconfig"; path = "Target Support Files/Pods-JLMainProject_Example/Pods-JLMainProject_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,10 +67,19 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D24FADD26003A4D00768F48 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7D24FADE26003A4E00768F48 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		7D24FAE026003A4E00768F48 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		7D24FAE126003A5900768F48 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7D24FB2A2600454300768F48 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		7D24FB2B2600454300768F48 /* JLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTools.h; sourceTree = "<group>"; };
+		7D24FB2C2600454300768F48 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		7D24FB2D2600454300768F48 /* JLTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTools.m; sourceTree = "<group>"; };
+		7D24FB332600455900768F48 /* local.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = local.strings; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B20D56F839F4289FDD4D82D1 /* Pods-JLMainProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLMainProject_Tests.release.xcconfig"; path = "Target Support Files/Pods-JLMainProject_Tests/Pods-JLMainProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C8F54ED5909E6C1190A38446 /* Pods-JLMainProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLMainProject_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JLMainProject_Tests/Pods-JLMainProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF41531D57B9731A1B492D82 /* JLMainProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JLMainProject.podspec; path = ../JLMainProject.podspec; sourceTree = "<group>"; };
+		CF41531D57B9731A1B492D82 /* JLMainProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JLMainProject.podspec; path = ../JLMainProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +145,7 @@
 		6003F593195388D20070C39A /* Example for JLMainProject */ = {
 			isa = PBXGroup;
 			children = (
+				7D24FB292600454300768F48 /* Classes */,
 				6003F59C195388D20070C39A /* JLAppDelegate.h */,
 				6003F59D195388D20070C39A /* JLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,6 +199,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		7D24FB292600454300768F48 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7D24FB2A2600454300768F48 /* .gitkeep */,
+				7D24FB2B2600454300768F48 /* JLTools.h */,
+				7D24FB2D2600454300768F48 /* JLTools.m */,
+				7D24FB2C2600454300768F48 /* ReplaceMe.m */,
+				7D24FB332600455900768F48 /* local.strings */,
+			);
+			name = Classes;
+			path = ../../JLMainProject/Classes;
+			sourceTree = "<group>";
+		};
 		9C190937C19C03D9C46EC53C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +220,6 @@
 				C8F54ED5909E6C1190A38446 /* Pods-JLMainProject_Tests.debug.xcconfig */,
 				B20D56F839F4289FDD4D82D1 /* Pods-JLMainProject_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,7 +253,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				77F727E765F9CF6B6B055674 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,11 +281,12 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "JLMainProject" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -278,8 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D24FB342600455900768F48 /* local.strings in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				7D24FB2E2600454300768F48 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -340,24 +368,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		77F727E765F9CF6B6B055674 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JLMainProject_Tests/Pods-JLMainProject_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JLMainProject_Tests/Pods-JLMainProject_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F6E77D5D0C7A8ABC668A6A6B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,10 +376,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JLMainProject_Example/Pods-JLMainProject_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JLMainProject/JLMainProject.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLMainProject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,7 +395,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D24FB2F2600454300768F48 /* ReplaceMe.m in Sources */,
 				6003F59E195388D20070C39A /* JLAppDelegate.m in Sources */,
+				7D24FB302600454300768F48 /* JLTools.m in Sources */,
 				6003F5A7195388D20070C39A /* JLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -412,6 +426,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
+				7D24FADE26003A4E00768F48 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -420,6 +435,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F5B9195388D20070C39A /* en */,
+				7D24FAE026003A4E00768F48 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -428,6 +444,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				71719F9E1E33DC2100824A3D /* Base */,
+				7D24FADD26003A4D00768F48 /* zh-Hans */,
+				7D24FAE126003A5900768F48 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -468,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -516,6 +534,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JLMainProject/JLMainProject-Prefix.pch";
 				INFOPLIST_FILE = "JLMainProject/JLMainProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +551,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JLMainProject/JLMainProject-Prefix.pch";
 				INFOPLIST_FILE = "JLMainProject/JLMainProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLMainProject'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JLMainProject.'
+  s.version          = '1.0.0'
+  s.summary          = 'A description of JLMainProject.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,28 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jialun.zeng/JLMainProject'
+  s.homepage         = 'https://www.jianshu.com/p/c8ea1f95717a'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jialun.zeng' => 'jialun.zeng@shanggucai.com' }
-  s.source           = { :git => 'https://github.com/jialun.zeng/JLMainProject.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jlzeng1991/JLMainProject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'JLMainProject/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JLMainProject' => ['JLMainProject/Assets/*.png']
+    #s.resource_bundles = {
+    # 'JLMainProject' => ['JLMainProject/Assets/**/*.h']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#    s.dependency 'ReactiveObjC'
+#  git config --global user.email "137766015@qq.com"
+#
+#  git config --global user.name "jlzeng1991"
 end
+
+
+

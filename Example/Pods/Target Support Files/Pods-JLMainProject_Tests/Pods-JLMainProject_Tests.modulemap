@@ -1,0 +1,6 @@
+framework module Pods_JLMainProject_Tests {
+  umbrella header "Pods-JLMainProject_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

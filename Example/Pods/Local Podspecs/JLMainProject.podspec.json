@@ -1,0 +1,32 @@
+{
+  "name": "JLMainProject",
+  "version": "1.0.0",
+  "summary": "A description of JLMainProject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.jianshu.com/p/c8ea1f95717a",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jialun.zeng": "jialun.zeng@shanggucai.com"
+  },
+  "source": {
+    "git": "https://github.com/jlzeng1991/JLMainProject.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JLMainProject/Classes/**/*",
+  "resource_bundles": {
+    "JLMainProject": [
+      "JLMainProject/Assets/**/*.h"
+    ]
+  },
+  "dependencies": {
+    "ReactiveObjC": [
+
+    ]
+  }
+}

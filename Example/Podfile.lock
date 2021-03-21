@@ -1,0 +1,23 @@
+PODS:
+  - JLMainProject (1.0.0):
+    - ReactiveObjC
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - JLMainProject (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  JLMainProject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JLMainProject: 0516817e97e14c3a596f10e62433f1a695048799
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: 72454b5e093a0c51d28fe210165723bfdc268e07
+
+COCOAPODS: 1.10.0
